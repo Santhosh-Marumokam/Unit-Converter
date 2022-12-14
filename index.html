@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Convertor</title>
+  <link rel="icon" href="icon.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="title">Unit Convertor</h1>
+  <div class="container">
+    <p>Select Conversion: 
+      <select name="Conversion" id="Conversion">
+        <optgroup label="Mass Conversion">
+          <option value="milligram">milligrams to grams</option>
+          <option value="centigram">centigrams to grams</option>
+          <option value="kilogram">kilograms to grams</option>
+          <option value="pound">pounds to grams</option>
+          <option value="ounce">ounces to grams</option>
+        </optgroup>
+        <optgroup label="Length Conversion">
+          <option value="millimetre">millimetres to metres</option>
+          <option value="centimetre">centimetres to metres</option>
+          <option value="kilometre">kilometres to metres</option>
+          <option value="inch">inches to metres</option>
+          <option value="foot">ft to metres</option>
+        </optgroup>
+        <optgroup label="Time Conversion">
+          <option value="minute">minutes to seconds</option>
+          <option value="hour">hours to minutes</option>
+          <option value="day">days to hours</option>
+          <option value="week">weeks to days</option>
+          <option value="year">years to days</option>
+        </optgroup>
+        <optgroup label="Temperature Conversion">
+          <option value="k2c">Kelvin to Celsius</option>
+          <option value="k2f">Kelvin to Fahrenheit</option>
+          <option value="c2f">Celsius to Fahrenheit</option>
+          <option value="f2c">Fahrenheit to Celsius</option>
+          <option value="f2k">Fahrenheit to Kelvin</option>
+        </optgroup>
+        <optgroup label="Area Unit Conversion">
+          <option value="sqft">sq. feets to sq. metres</option>
+          <option value="acre">acres to sq. metres</option>
+          <option value="hectare">hectares to sq. metres</option>
+        </optgroup>
+        <optgroup label="Volume Unit Conversion">
+          <option value="milliliter">milliliters to liters</option>
+          <option value="kiloliter">kiloliters to liters</option>
+          <option value="gallon">gallons to liters</option>
+        </optgroup>
+        <optgroup label="Power Unit Conversion">
+          <option value="horsepower">horsepower to watt</option>
+        </optgroup>
+      </select>
+    </p>
+    <p>Value: <input type="number" placeholder="enter positive value" id="value"></p>
+    <p id="result"></p><button id="btn">Result</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+<footer>
+  @ Made by Namala Prathyusha
+</footer>
+
+</html>
