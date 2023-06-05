@@ -4,7 +4,7 @@ This page is designed using
 
 ![html_css_js_logo](https://user-images.githubusercontent.com/65334227/184534563-27f303c1-9b17-4021-aba0-dec0ec8c90c6.png)
 
-View page @ [https://github.io/Santhosh-Marumokam/Unit-Converter/index.html]
+View page @ [https://Santhosh-Marumokam.github.io/Unit-Converter/index.html]
 
 Screenshots:
 
